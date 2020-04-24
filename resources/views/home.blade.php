@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <a href="{{ route('emailIndex') }}" class="btn btn-primary">Create List</a>
+                    <a href="{{ route('template') }}" class="btn btn-primary">Send email from already imported list.</a>
                 </div>
             </div>
         </div>
